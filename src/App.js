@@ -1,30 +1,16 @@
 import "./App.css";
-<<<<<<< HEAD
-import Header from "./01GetStarted/Header";
+import Header from "./01GetStarted/Home";
 import AboutUs from "./02AboutUs/AboutUs";
-=======
-import Header from "./components/Header";
->>>>>>> 31602c6825741cc5598ef4684d46567e4ab32e3b
-import AppContactUs from "./AppContactUs/AppContactUs";
-import AppServices from "./AppServices/AppServices";
-import AppTeamProfile from "./AppTeamProfile/AppTeamProfile";
-import { MemberProfile } from "./AppTeamProfile/AppTeamProfile";
+import AppContactUs from "./05ContactUs/AppContactUs";
+import AppServices from "./04Services/AppServices";
+import AppTeamProfile from "./03TeamProfile/AppTeamProfile";
+import { MemberProfile } from "./03TeamProfile/AppTeamProfile";
 
 function App() {
-<<<<<<< HEAD
-	return (
-		<div className="App w-75 container-fluid">
-			<Header />
-			<AboutUs />
-			<AppContactUs />
-		</div>
-	);
-=======
   return (
     <div className="App w-75 container-fluid">
-  	  <h1>CareerShifters</h1>
-		  <p>This is a team portfolio</p>
-		  <Header />
+      <Header />
+      <AboutUs />
       <AppTeamProfile>
         <MemberProfile
           firstName="MARWIN"
@@ -52,7 +38,6 @@ function App() {
       <AppContactUs />
     </div>
   );
->>>>>>> 31602c6825741cc5598ef4684d46567e4ab32e3b
 }
 
 export default App;

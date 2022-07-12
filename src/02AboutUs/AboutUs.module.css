@@ -1,13 +1,18 @@
+.AboutUs {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
 .imgAbout {
-	width: 700px;
-	height: auto;
-	padding-top: 200px;
-	padding-bottom: 50px;
-	display: block;
-	margin: auto;
+  width: 700px;
+  height: auto;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  display: block;
+  margin: auto;
 }
 
 .div_about_title {
-	text-align: center;
-	padding-bottom: 50px;
+  text-align: center;
+  padding-bottom: 50px;
 }
