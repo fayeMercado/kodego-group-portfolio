@@ -1,0 +1,16 @@
+footer {
+    font-family: "Montserrat", sans-serif;
+}
+
+.footer--logo_text {
+    color: white;
+    background-color: #284A70
+}
+
+.footer--dev {
+    color: #284A70
+}
+
+.footer--icon {
+    padding: 0px 10px;
+}
