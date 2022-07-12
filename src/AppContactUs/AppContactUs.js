@@ -10,7 +10,7 @@ const AppContactUs = () => (
     className={styles.AppContactUs + " text-center"}
     data-testid="AppContactUs"
   >
-    <h1 className="fontMain">CONTACT US</h1>
+    <h1 className="fontMain fontColorMain">CONTACT US</h1>
     <div className="row">
       <div className="col-3 d-flex align-self-end">
         <img src={imgContact} alt="" className="img-fluid" />
