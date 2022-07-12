@@ -6,7 +6,8 @@ import AppTeamProfile from "./03TeamProfile/AppTeamProfile";
 import { MemberProfile } from "./03TeamProfile/AppTeamProfile";
 import AppServices from "./04Services/AppServices";
 import AppContactUs from "./05ContactUs/AppContactUs";
-import Footer from "./06Footer/Footer";
+import ScrollTop from "./06ScrollTop/ScrollTop";
+import Footer from "./07Footer/Footer";
 
 import mar from "./Images/dp-mar.png";
 import faye from "./Images/dp-faye.png";
@@ -43,6 +44,7 @@ function App() {
       </AppTeamProfile>
       <AppServices />
       <AppContactUs />
+      <ScrollTop />
       <Footer />
     </div>
   );
