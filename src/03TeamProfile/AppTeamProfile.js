@@ -29,16 +29,18 @@ export const MemberProfile = (props) => (
         <span>{props.lastName}</span>
       </div>
       <p>{props.description}</p>
+    </div>
+    <div className="d-flex flex-column align-items-center">
       <h5 className="fontMain fontColorMain">LIKES...</h5>
       <p>{props.likes}</p>
-    </div>
-    <div className="d-flex text-center gap-3">
-      <a href="">
-        <img src={linkedin} alt="linkedin" height="50px" />
-      </a>
-      <a href="">
-        <img src={github} alt="github" height="50px" />
-      </a>
+      <div className="d-flex text-center gap-3">
+        <a href="">
+          <img src={linkedin} alt="linkedin" height="50px" />
+        </a>
+        <a href="">
+          <img src={github} alt="github" height="50px" />
+        </a>
+      </div>
     </div>
   </div>
 );
