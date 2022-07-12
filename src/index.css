@@ -20,3 +20,7 @@ code {
 .fontMain {
   font-family: "IBM Plex Serif", serif;
 }
+
+.fontColorMain {
+  color: rgb(40, 75, 112);
+}
