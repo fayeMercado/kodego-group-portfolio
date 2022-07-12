@@ -6,7 +6,7 @@ import imgHeader from "../Images/img-building-websites.svg";
 
 const Home = () => {
   return (
-    <div
+    <div id="home"
       className={
         styles.Home + " d-flex align-self-center justify-content-center"
       }

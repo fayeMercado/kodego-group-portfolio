@@ -6,7 +6,7 @@ import imgServices2 from "../Images/img-site-content.svg";
 import imgServices3 from "../Images/img-static-website.svg";
 
 const AppServices = () => (
-  <div
+  <div id="whatWeDo"
     className={styles.AppServices + " text-center"}
     data-testid="AppServices"
   >

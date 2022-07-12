@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
 const AppContactUs = () => (
-  <div
+  <div id="contactUs"
     className={styles.AppContactUs + " text-center"}
     data-testid="AppContactUs"
   >
