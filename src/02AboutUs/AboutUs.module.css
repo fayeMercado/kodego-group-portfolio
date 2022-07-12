@@ -6,13 +6,6 @@
 .imgAbout {
   width: 700px;
   height: auto;
-  padding-top: 200px;
-  padding-bottom: 50px;
   display: block;
   margin: auto;
-}
-
-.div_about_title {
-  text-align: center;
-  padding-bottom: 50px;
 }
