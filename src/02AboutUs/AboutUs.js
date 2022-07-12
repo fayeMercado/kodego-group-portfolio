@@ -6,7 +6,7 @@ import imgAbout from "../Images/img-team-spirit.svg";
 
 const AboutUs = () => {
   return (
-    <div className={styles.AboutUs}>
+    <div id="aboutUs" className={styles.AboutUs}>
       <Container>
         <div className={styles.div_about}>
           <Image className={styles.imgAbout} src={imgAbout} alt="" />

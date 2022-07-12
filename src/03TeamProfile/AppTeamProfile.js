@@ -6,6 +6,7 @@ import github from "../Images/ico-github.svg";
 
 const AppTeamProfile = (props) => (
   <div
+    id="team"
     className={styles.AppTeamProfile + " text-center"}
     data-testid="AppTeamProfile"
   >
