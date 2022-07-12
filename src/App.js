@@ -1,4 +1,5 @@
 import "./App.css";
+import Header from "./components/Header";
 import AppContactUs from "./AppContactUs/AppContactUs";
 import AppServices from "./AppServices/AppServices";
 import AppTeamProfile from "./AppTeamProfile/AppTeamProfile";
@@ -7,7 +8,9 @@ import { MemberProfile } from "./AppTeamProfile/AppTeamProfile";
 function App() {
   return (
     <div className="App w-75 container-fluid">
-      <h1>Start here</h1>
+  	  <h1>CareerShifters</h1>
+		  <p>This is a team portfolio</p>
+		  <Header />
       <AppTeamProfile>
         <MemberProfile
           firstName="MARWIN"
