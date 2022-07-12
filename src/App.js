@@ -1,14 +1,19 @@
 import "./App.css";
 import Header from "./01GetStarted/Home";
+import Navbar from "./Navbar/Navbar"
+import Footer from "./Footer/Footer"
 import AboutUs from "./02AboutUs/AboutUs";
 import AppContactUs from "./05ContactUs/AppContactUs";
 import AppServices from "./04Services/AppServices";
 import AppTeamProfile from "./03TeamProfile/AppTeamProfile";
 import { MemberProfile } from "./03TeamProfile/AppTeamProfile";
 
+
+
 function App() {
   return (
     <div className="App w-75 container-fluid">
+      <Navbar />
       <Header />
       <AboutUs />
       <AppTeamProfile>
@@ -36,6 +41,7 @@ function App() {
       </AppTeamProfile>
       <AppServices />
       <AppContactUs />
+      <Footer />
     </div>
   );
 }
