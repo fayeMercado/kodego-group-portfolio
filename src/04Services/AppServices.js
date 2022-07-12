@@ -24,13 +24,17 @@ const AppServices = () => (
     </div>
     <div className="mb-3">
       <p>
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum."
+        We build websites that convert visitors into customers. Our aim is to
+        provide each client with the perfect website that fits their needs and
+        wants. From creating a polished, professional appearance to providing
+        the systems needed, we will ensure your business website meets or
+        exceeds your expectations.
+      </p>
+      <p>
+        Our services include any or all of the following: Creation of custom web
+        site, Creation and customization of all graphics, User experience (UX)
+        design, Website architecture and development, Database design and
+        development.
       </p>
     </div>
   </div>
