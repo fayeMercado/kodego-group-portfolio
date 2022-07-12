@@ -1,0 +1,16 @@
+.AppTeamProfile {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.surname {
+  background-color: rgb(40, 75, 112);
+  color: rgb(255, 255, 255);
+}
+
+.profilePhoto {
+  /* border: 1px solid red; */
+  border-radius: 50%;
+}
+
+/* #8CA1B8 */
