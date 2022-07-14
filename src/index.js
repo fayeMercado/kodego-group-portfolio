@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ProfileMarwin from "./08ProfileMarwin/ProfileMarwin";
 import ProfileFaye from "./09ProfileFaye/ProfileFaye";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -16,7 +17,7 @@ root.render(
           <Route index element={<App></App>}></Route>
           <Route
             path="marwin"
-            element={<p>replace your component here</p>}
+            element={<ProfileMarwin></ProfileMarwin>}
           ></Route>
           <Route path="faye" element={<ProfileFaye></ProfileFaye>}></Route>
           <Route
