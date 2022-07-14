@@ -26,6 +26,7 @@ function App() {
           lastName="ALMENDRAS"
           description="I'm from Cebu and Management Accounting Graduate and now a career shifter. I would like to realize my dream to become zero to hero web developer."
           likes="Anime/Manga, Watching movies"
+          site="marwin"
         />
         <MemberProfile
           imgSrc={faye}
@@ -33,6 +34,7 @@ function App() {
           lastName="MERCADO"
           description="Architect and soon to be web developer; I am into solving problems and finding ways to do things efficiently."
           likes="Food, DIYs, Coffee, Cats"
+          site="faye"
         />
         <MemberProfile
           imgSrc={kristoff}
@@ -40,6 +42,7 @@ function App() {
           lastName="VILLANUEVA"
           description="Kristoff began building simple websites using drag & drop web builders since 2014. Though that gig didn't last long due to many reasons, he found his passion back in web development just this year via KodeGo. He looks forward to growing in this field and being involved in startups and tech ventures."
           likes="Motorcycling, Road trip, Coding"
+          site="kristoff"
         />
       </AppTeamProfile>
       <AppServices />

@@ -15,23 +15,32 @@ const AppTeamProfile = (props) => (
   </div>
 );
 
-export const MemberProfile = (props) => (
-  <div className="col d-flex flex-column align-items-center justify-content-between px-5">
-    <div className="p-0">
-      <div className="container w-75">
-        <img
-          src={props.imgSrc}
-          alt=""
-          className={styles.profilePhoto + " p-3 img-fluid mb-3"}
-        />
+export const MemberProfile = (props) => {
+  return (
+    <div className="col d-flex flex-column align-items-center justify-content-between px-5">
+      <div className="p-0">
+        <div className="container w-75">
+          <img
+            src={props.imgSrc}
+            alt=""
+            className={styles.profilePhoto + " p-3 img-fluid mb-3"}
+          />
+        </div>
+        <h3 className="fontMain">{props.firstName}</h3>
+        <div className={styles.surname + " container-fluid w-75 mb-3"}>
+          <span>{props.lastName}</span>
+        </div>
+        {/* <p>{props.description}</p> */}
+        <button
+          className="btn btn-primary"
+          onClick={(props) => {
+            <>window.location = {props.site}</>;
+          }}
+        >
+          See Profile
+        </button>
       </div>
-      <h3 className="fontMain">{props.firstName}</h3>
-      <div className={styles.surname + " container-fluid w-75 mb-3"}>
-        <span>{props.lastName}</span>
-      </div>
-      <p>{props.description}</p>
-    </div>
-    <div className="d-flex flex-column align-items-center">
+      {/* <div className="d-flex flex-column align-items-center">
       <h5 className="fontMain fontColorMain">LIKES...</h5>
       <p>{props.likes}</p>
       <div className="d-flex text-center gap-3">
@@ -42,9 +51,10 @@ export const MemberProfile = (props) => (
           <img src={github} alt="github" height="50px" />
         </a>
       </div>
+    </div> */}
     </div>
-  </div>
-);
+  );
+};
 
 AppTeamProfile.propTypes = {};
 
