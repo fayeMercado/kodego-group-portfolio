@@ -7,27 +7,28 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ProfileMarwin from "./08ProfileMarwin/ProfileMarwin";
 import ProfileFaye from "./09ProfileFaye/ProfileFaye";
+import ProfileKristoff from "./10ProfileKristoff/ProfileKristoff";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/">
-          <Route index element={<App></App>}></Route>
-          <Route
-            path="marwin"
-            element={<ProfileMarwin></ProfileMarwin>}
-          ></Route>
-          <Route path="faye" element={<ProfileFaye></ProfileFaye>}></Route>
-          <Route
-            path="kristoff"
-            element={<p>replace your component here</p>}
-          ></Route>
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  </React.StrictMode>
+	<React.StrictMode>
+		<BrowserRouter>
+			<Routes>
+				<Route path="/">
+					<Route index element={<App></App>}></Route>
+					<Route
+						path="marwin"
+						element={<ProfileMarwin></ProfileMarwin>}
+					></Route>
+					<Route path="faye" element={<ProfileFaye></ProfileFaye>}></Route>
+					<Route
+						path="kristoff"
+						element={<ProfileKristoff></ProfileKristoff>}
+					></Route>
+				</Route>
+			</Routes>
+		</BrowserRouter>
+	</React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
