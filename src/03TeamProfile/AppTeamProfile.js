@@ -33,8 +33,8 @@ export const MemberProfile = (props) => {
         {/* <p>{props.description}</p> */}
         <button
           className="btn btn-primary"
-          onClick={(props) => {
-            <>window.location = {props.site}</>;
+          onClick={() => {
+            window.location = props.site;
           }}
         >
           See Profile
