@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ProfileFaye from "./09ProfileFaye/ProfileFaye";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -13,9 +14,15 @@ root.render(
       <Routes>
         <Route path="/">
           <Route index element={<App></App>}></Route>
-          <Route path="marwin" element={<p>hello</p>}></Route>
-          <Route path="faye" element={<p>hello</p>}></Route>
-          <Route path="kristoff" element={<p>hello</p>}></Route>
+          <Route
+            path="marwin"
+            element={<p>replace your component here</p>}
+          ></Route>
+          <Route path="faye" element={<ProfileFaye></ProfileFaye>}></Route>
+          <Route
+            path="kristoff"
+            element={<p>replace your component here</p>}
+          ></Route>
         </Route>
       </Routes>
     </BrowserRouter>
